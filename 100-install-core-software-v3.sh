@@ -18,16 +18,17 @@ set -e
 #sudo pacman -S --noconfirm --needed autorandr
 sudo pacman -S --noconfirm --needed flameshot
 sudo pacman -S --noconfirm --needed discord
-sudo pacman -S --noconfirm --needed dropbox
+#sudo pacman -S --noconfirm --needed dropbox
 sudo pacman -S --noconfirm --needed spotify
-sudo pacman -S --noconfirm --needed telegram-desktop
-
-sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
-sudo pacman -S --noconfirm --needed vivaldi-widevine
-
-sudo pacman -S --noconfirm --needed wps-office
-sudo pacman -S --noconfirm --needed ttf-wps-office
-sudo pacman -S --noconfirm --needed wps-office-mime
+#sudo pacman -S --noconfirm --needed telegram-desktop
+sudo pacman -S --noconfirm --needed nodejs
+sudo pacman -S --noconfirm --needed npm
+sudo pacman -S --noconfirm --needed code
+#sudo pacman -S --noconfirm --needed vivaldi-ffmpeg-codecs
+#sudo pacman -S --noconfirm --needed vivaldi-widevine
+#sudo pacman -S --noconfirm --needed wps-office
+#sudo pacman -S --noconfirm --needed ttf-wps-office
+#sudo pacman -S --noconfirm --needed wps-office-mime
 
 
 ###############################################################################################
