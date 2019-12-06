@@ -15,11 +15,11 @@ set -e
 # change into your name and email.
 
 git init
-git config --global user.name "Erik Dubois"
-git config --global user.email "erik.dubois@gmail.com"
-sudo git config --system core.editor nano
+git config --global user.name "Daniel Pham"
+git config --global user.email "dp.pham816@gmail.com"
+sudo git config --system core.editor code
 git config --global credential.helper cache
-git config --global credential.helper 'cache --timeout=25000'
+git config --global credential.helper 'cache --timeout=250000'
 git config --global push.default simple
 
 
